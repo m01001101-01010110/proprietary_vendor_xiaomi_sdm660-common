@@ -492,8 +492,8 @@ PRODUCT_PACKAGES += \
     dpmapi \
     embmslibrary \
     qcrilhook \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@3.0-service
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.qti.gnss@3.0-service.xml
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_COPY_FILES += \
